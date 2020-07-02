@@ -1,0 +1,122 @@
+
+$font: Lato Black 900, Arial;
+$orange:#E09852;
+$darkgray: #484848;
+
+%box {
+  padding:30px;
+}
+
+.col-3{
+  @extend %box;
+  border: solid #e7e7e7;
+}
+
+.col-9{
+  @extend %box;
+  background-color:#E7E7E7; //gray
+  width:auto;
+}
+
+.col-lg-3{
+  float:left;
+  margin: 20px;
+}
+
+.container{
+  margin:50px;
+}
+
+h1{
+  font-family: Lato Black 900, Lato, Open Sans, Arial, sans-serif;
+  font-weight:bold;
+  letter-spacing:-2px;
+  line-height:35px;
+  color: $darkgray;
+}
+
+#icon{
+  width:100px;
+  margin-bottom: 20px;
+  border-radius:50%;
+}
+
+@media (max-width:499px){
+  h1{
+    display:none;
+  }
+}
+
+#links{
+    margin-top:30px;
+    line-height:35px;
+    font-family:$font;
+    font-size:15px;
+
+    a{
+      color:black;
+    }
+}
+
+
+
+a:hover{
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.big{
+  font-size:21px;
+  font-family: $font;
+  font-weight: bold;
+  color:$darkgray;
+  text-decoration: underline $orange;
+  letter-spacing:-1px;
+}
+
+#click:hover{
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#quote{
+  font-family:Arial;
+  letter-spacing: 2px;
+  font-size:11px;
+  font-style:italic;
+  color:$orange;
+  margin-left:40px;
+  margin-top:30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li:before {
+    content: "\2665";
+    color: $orange;
+}
+
+#favimg{
+  height:250px;
+}
+
+p::selection, li::selection{
+  color:white;
+  background-color:$orange;
+}
+
+tr{
+  border: solid $darkgray;
+  td,th{
+    border: solid $darkgray;
+    padding:10px;
+  }
+}
+
+.sources{
+  color: $darkgray;
+  font-size: 11px;
+}
