@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+          function func(){
+
+            document.getElementById("bootstrapAlert").innerHTML =
+            "<div class='alert alert-dark' role='alert'>Congratulations! You've read a completely pointless paragraph.</div>";
+          }
+        </script>
+    </head>
+    <body>
+
+        <div class="container">
+        <div class="row">
+          <div class="col-3">
+              <img src="images/IMG_3242.jpg" alt="icon" id="icon">
+              <h1>about me.</h1>
+              <div id="links">
+                <a href="/" style="text-decoration:underline;">description</a><br> <!--current page link is underlined-->
+                <a href="hobbies.html">hobbies</a><br>
+                <a href="favorites.html">favorites</a><br>
+                <a href="link4.html">links</a><br>
+              </div>
+
+          </div>
+          <div class="col-9">
+            <p class="big">my name is natasha.</p>
+            <p>I was born and raised in Indonesia. Thanks to a really passionate high school teacher,
+            I fell in love with Physics and am currently chasing an Engineering degree in Hong Kong. I'm taking this CS50w course
+            to upskill during my time in quarantine, which I'm sure a lot of other people are also doing to remain productive this season.
+            Not sure what else to say. My hometown is due to be fully underwater by 2050, so that's something.
+            Climate change, huh? If you're still reading, <em id="click" onclick="func();">click here!</em></p>
+             <div id="bootstrapAlert">
+               <!-- alert goes here if the above "click me!" is clicked-->
+            </div>
+            <div id="quote">"My mission in life is not merely to survive, but to thrive; <br>and to do so with some passion, some compassion, some humor, and some style."
+            <br><br>— Maya Angelou</div>
+
+
+          </div>
+        </div>
+        </div>
+    </body>
+</html>
