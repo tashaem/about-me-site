@@ -1,11 +1,7 @@
-# Project 0
+# CS50W - Web Programming with Python and JavaScript
 
-Web Programming with Python and JavaScript
+### Project 0 - Personal Website
 
-This is an "About Me" project with 4 different web pages that can be accessed through the 'sidebar' provided
-across all 4 pages. 
-
-1. index.html =  Intended "Home" page you'd want to open first. The page holds a short description about me (not really).
-2. hobbies.html = contains a list of my hobbies and how I spend my time.
-3. favorites.html = displays the posters of my favorite book, movie, and tv show.
-4. link4.html = holds a table of random links.
+This is a project I built to implement my new knowledge on Sass and 
+the Bootstrap grid model. It contains 4 simple web pages where I tested
+out basic HTML and CSS features.
